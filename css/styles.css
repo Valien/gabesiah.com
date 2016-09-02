@@ -1,0 +1,11 @@
+.img-circle {
+  border-radius: 50px;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+  
+}
+
+.jumbotron {
+  background-color: #80bfff;
+}
