@@ -1,76 +1,105 @@
-<body>
+<!DOCTYPE html>
+<html>
 
-  <div class="container">
-    <div class="header clearfix">
-      <nav>
-        <ul class="nav nav-pills pull-right">
-          <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"> Home</a></li>
-          <li role="presentation"><a href="#about">About <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></a></li>
-          <li role="presentation"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"> Portfolio</a></li>
-          <li role="presentation"><a href="#contact"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> Contact</span></a></li>
-        </ul>
-      </nav>
-      <h3 class="text-muted">The Portfolio of Valien</h3>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Gabesiah.com - Talks on Sales Engineering, Security, Code, DevOps</title>
 
-    <div class="jumbotron">
-      <h1>Aw yesh....</h1>
-      <p class="lead">You see code is here. There. Everywhere.</p>
-      <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
-    </div>
-    <div id="about">
-      <h4>About Me</h4>
-      <p>So yeah about me. Not that exciting. Hate tooting my own horn. Check out my <a href="https://www.linkedin.com/in/allenv" target="_blank">LinkedIn</a> profile if you want to see what I have done and/or do for a living. This page is for one of the <a href="http://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage" target="_blank">FCC exercises</a>. :)
-      </p>
-      <p>I mainly do FCC and other code projects to stay on top of development technologies and for a change of pace from the daily routine. Also use it to work on MVP-type projects to determine if they are worth pursuing or not.
-    </div>
-    <div id="portfolio">
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Non-Viewable</h4>
-          <p class="text-primary">Most projects I work on are non-viewable as they are client facing. And to be honest I do not really code much anymore. That's left to more talented and gifted coders. I tend to hack things as needed or build out custom micro-sites for my own
-            work needs.</p>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='css/styles.css'>
+  <script type="text/javascript" src="js/timecheck.js"></script>
+  <script type="text/javascript">
+    window.onload = timeCheckGreeting;
+  </script>
 
-          <h4><a href="https://github.com/Valien/SQL-licious" target="_blank">SQL-licious!</a></h4>
-          <p class="text-primary">Here be scripts (or queries) that I used for a variety of SQL Express, MySQL, and SQL Server work that I do on a daily basis.</p>
+</head>
+
+<body translate="no">
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"> Home</a></li>
+            <li role="presentation"><a href="#about">About <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></a></li>
+            <li role="presentation"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"> Portfolio</a></li>
+            <li role="presentation"><a href="#contact"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> Contact</span></a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Welcome to Gabesiah.com</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 id="greeting"></h1>
+        <p class="lead">You see code is here. There. Everywhere.</p>
+        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+      </div>
+      <div id="about">
+        <h4>About Me</h4>
+        <p>So yeah about me. Not that exciting. Hate tooting my own horn. Check out my <a href="https://www.linkedin.com/in/allenv"
+            target="_blank">LinkedIn</a> profile if you want to see what I have done and/or do for a living. This page is for
+          one of the <a href="http://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage" target="_blank">FCC exercises</a>.
+          :)
+        </p>
+        <p>I mainly do FCC and other code projects to stay on top of development technologies and for a change of pace from
+          the daily routine. Also use it to work on MVP-type projects to determine if they are worth pursuing or not.
+      </div>
+      <div id="portfolio">
+        <div class="row marketing">
+          <div class="col-lg-6">
+            <h4>Non-Viewable</h4>
+            <p class="text-primary">Most projects I work on are non-viewable as they are client facing. And to be honest I do not really code much
+              anymore. That's left to more talented and gifted coders. I tend to hack things as needed or build out custom
+              micro-sites for my own work needs.</p>
+
+            <h4><a href="https://github.com/Valien/SQL-licious" target="_blank">SQL-licious!</a></h4>
+            <p class="text-primary">Here be scripts (or queries) that I used for a variety of SQL Express, MySQL, and SQL Server work that I do on
+              a daily basis.</p>
 
 
-          <div><img src="http://gabesiah.com/fcc/sql.jpg" title="sql" class="img-responsive img-circle"></img><br/>
+            <div><img src="http://gabesiah.com/fcc/sql.jpg" title="sql" class="img-responsive img-circle"></img><br/>
+            </div>
+
           </div>
 
-        </div>
+          <div class="col-lg-6">
+            <h4><a href="https://github.com/Valien/Bash-alicious" target="_blank">Bash-alicious!</a></h4>
+            <p class="text-primary">In my role I frequently hack Bash for a variety of things. This repo on GitHub is a compilation of the different
+              scripts that I have written for my work and are now available to anyone to use.</p>
 
-        <div class="col-lg-6">
-          <h4><a href="https://github.com/Valien/Bash-alicious" target="_blank">Bash-alicious!</a></h4>
-          <p class="text-primary">In my role I frequently hack Bash for a variety of things. This repo on GitHub is a compilation of the different scripts that I have written for my work and are now available to anyone to use.</p>
+            <div><img src="http://gabesiah.com/fcc/bash.jpg" title="bash" class="img-responsive img-circle"></img>
+            </div>
+            <br/>
 
-          <div><img src="http://gabesiah.com/fcc/bash.jpg" title="bash" class="img-responsive img-circle"></img>
+
           </div>
-          <br/>
-
-
         </div>
       </div>
-    </div>
-    <div id="contact" class="jumbotron">
-      <h3>Get a hold of me.</h3>
-     
-      <div>
-        <a class="btn btn-default" href="https://twitter.com/Valien" target="_blank" role="button"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
-        <a class="btn btn-default" href="https://github.com/Valien" target="_blank" role="button"><i class="fa fa-github fa-fw"></i> GitHub</a>
-        <a class="btn btn-default" href="https://www.linkedin.com/in/allenv" target="_blank" role="button"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+      <div id="contact" class="jumbotron">
+        <h3>Get a hold of me.</h3>
 
+        <div>
+          <a class="btn btn-default" href="https://twitter.com/Valien" target="_blank" role="button"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+          <a class="btn btn-default" href="https://github.com/Valien" target="_blank" role="button"><i class="fa fa-github fa-fw"></i> GitHub</a>
+          <a class="btn btn-default" href="https://www.linkedin.com/in/allenv" target="_blank" role="button"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+
+        </div>
+        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
       </div>
-      <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+      <footer class="footer">
+        <p>&copy; 2016 <a href="http://www.gabesiah.com/" target="_blank">Gabesiah Technologies, Inc.</a></p>
+      </footer>
+
     </div>
-    <footer class="footer">
-      <p>&copy; 2016 <a href="http://www.gabesiah.com/" target="_blank">Gabesiah Technologies, Inc.</a></p>
-    </footer>
-
-  </div>
-  <!-- /container -->
+    <!-- /container -->
 
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+  </body>
 </body>
+
+</html>
